@@ -35,4 +35,4 @@ declare function OnClickOut<P>(
         | ClickOutComponentClass<P & OnClickOut.InjectedOnClickOutProps>
 ): React.ComponentClass<P & OnClickOut.OnClickOutProps>;
 
-export = OnClickOut;
+export = { default: OnClickOut };
